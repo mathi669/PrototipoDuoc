@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/registro.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <title>Registro de usuario</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg bg-dark bg-opacity-50">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="login.html">Iniciar Sesion</a>
+                <a class="nav-link active" href="registro.html">Registro de usuario</a>
+                <a class="nav-link" href="#">Contacto</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+    <div class="container">
+      <br><br><br><br>
+        <div class="row">
+            <div class="row">
+            <div class="col-lg-12">
+            <div class="card text-bg-light ">
+            <div class="card-body">
+                <form  id="formulario1">
+                <div class="row">
+                <h1 class="card-title">Registrate en el sistema de consejeria de Duoc UC</h1>       
+                <div class="card-text" id="slideUp">
+                <p class="form-text">
+                    En este sistema se pueden registrar 4 usuarios diferentes, Alumno, Consejero, Director de carrera y Director de sede, el programa dirigira las 
+                    funcionalidades segun el rol
+                </p>
+                </div>
+                    <div class="col-md-4">
+                    <label>Escoja un rol</label>        
+                    <select class="form-select" aria-label="Default select example" name="Seleccione un rol">
+                        <option value="C01">Alumno</option>
+                        <option value="C02">Consejero</option>
+                        <option value="C03">Director de carrera</option>
+                        <option value="C04">Director de sede</option>
+                      </select>
+                    </div>
+                   
+                     <div class="col-md-4" >
+                        <label class="form-label" for="id_run">Run</label>
+                        <input class="form-control" type="textfield" name="ans" value="" id="id_run">
+
+                    </div>
+
+                    <div class="col-md-4" >
+                        <label class="form-label" for="id_first_name">Nombre</label>
+                        <input class="form-control" type="textfield" name="ans" value="" id="id_first_name">
+
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label" for="id_txtApellido">Apellido</label>
+                        <input  class="form-control" type="textfield" name="ans" value="" id="id_txtApellido">
+
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label" for="id_txtEmail">Email</label>
+                        <input  class="form-control" type="textfield" name="ans" value="" id="id_txtEmail">
+
+                    </div>
+                   
+                     <div class="col-md-4">
+                        <label class="form-label"  for="id_txtDireccion">Direccion</label>
+                        <input  class="form-control" type="textfield" name="ans" value="" id="id_txtDireccion">
+
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label" for="id_txtTelefono">Telefono</label>
+                        <input class="form-control" type="textfield" name="ans" value="" id="id_txtTelefono">
+
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label" for="id_txtTelefonoo">Repetir Telefono</label>
+                        <input class="form-control" type="textfield" name="ans" value="" id="id_txtTelefonoo">
+
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label" for="id_txtFechaNacimiento">Fecha de nacimiento</label>
+                        <input class="form-control" type="date" name="ans" value="" id="id_txtFechaNacimiento">
+
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label" for="id_us">Nombre de Usuario</label>
+                        <input class="form-control" type="textfield" name="ans" value="" id="id_us">
+
+                    </div>
+                    <div class="col-md-4">
+                        <label  class="form-label" for="id_txtContrasena">Contraseña</label>
+                        <input class="form-control" type="textfield" name="ans" value="" id="id_txtContrasena">
+
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label" for="id_txtRepetirContrasena">Repetir Contraseña</label>
+                        <input class="form-control" type="textfield" name="ans" value="" id="id_txtRepetirContrasena">
+                    </div>
+                    <br>
+                <div style="padding-top: 20px;" class="col-md-12">
+                        <button type="submit" id="form-check" class="btn btn-primary">Registrar</button>
+                        <button type="reset" class="btn btn-secondary">Limpiar</button>
+                        <a style="padding-left: 10px;" href="login.html">Ir a iniciar sesion</a>
+                </div>
+                
+                </div>
+                </form>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

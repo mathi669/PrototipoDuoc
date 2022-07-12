@@ -1,0 +1,42 @@
+/* Colors */
+.aqua{ background-color:aqua; }
+.blue{ background-color:blue; }
+.yellow{ background-color:yellow; }
+.greenyellow{ background-color:greenyellow; }
+.green{ background-color:green; }
+
+/* Height 100% to all the elements */
+html, 
+body{
+    height: 90vh;
+} 
+.container-table, 
+.inline-row, 
+.inline-row > div {
+    height: 100%;
+}
+
+/* We do the trick here with Table, table row and table-cell */
+.container-table {
+    display: table;
+    width: 100%; /* Width is important for display:table */
+}
+.inline-row { display: table-row; }
+.inline-row > div { display: table-cell; }
+
+/* This will set our heights as we need them */
+.inline-row > div > .row { height: 100%; }
+.inline-row > div .row > div { height: 30%; }
+
+.dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.dot2 {
+height: 15px;
+width: 15px;
+border-radius: 50%;
+display: inline-block;
+}
